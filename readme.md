@@ -1,22 +1,23 @@
 # Lern-Periode 5
 
-23.4 bis 25.6.2024
+23.8 bis 30.8.24
 
 ## Grob-Planung
 
-1. Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
-4. Was wäre ein geeignetes Projekt für diese LP5?
+1.  Versuchen ein Tic-Tac-Toe spiel zu programmieren.
 
-## 23.4.2024
 
-✍️ Heute habe ich... (50-100 Wörter)
+## 23.8.2024
 
-## 30.4.2024
+Geplant 
 
-- [ ] Erstes Arbeitspaket
-- [ ] ...
-- [ ] Viertes AP
+## 30.8.2024
 
-✍️ Heute habe ich... (50-100 Wörter)
+- [ ] Rechechieren wie ich es programmieren soll
+- [ ] Spielbrett entwerfen
+- [ ] Benutzereingabe, so dass die spieler ihre züge eigeben können
+- [ ] Spielerwechsel, so dass jeder 1 zug hat und dann wieder der andere spieler also abwechslung. 
+
+✍️ Heute habe ich grob geplant was ich machen will und wie ich ungefähr vorgehe. 
 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen

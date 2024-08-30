@@ -1,6 +1,6 @@
 # Lern-Periode 1
 
-23.8 bis 30.8.24
+23.8 bis 30.9
 
 ## Grob-Planung
 

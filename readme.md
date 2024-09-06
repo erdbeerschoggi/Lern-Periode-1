@@ -24,8 +24,15 @@ Geplant
 - [ ] Benutzereingabe, so dass die spieler ihe züge eingeben können
 - [ ] Spielerwechsel, so dass jeder immer einen 1 zug hat
 - [ ]  Wie man X und O einsetzen soll auf das spielbrett
-- [ ]  Noch mehr recherchieren 
+- [x]  Noch mehr recherchieren
 
+Heute habe ich mich für eine andere variante entschieden. Bei dieser neuen variante suchte ich nach einem einfacheren weg so das ich nicht so viel code muss schreiben. Ich bin auf eine Idee gekommen die ich jedoch noch ausprobieren muss.
+
+## 13.9.2024
+- [ ] Benutzereingabe, diese in einer nicht zu effizientem weg schreiben
+- [ ] x und o in das feld einsetzen
+- [ ] Anstatt zahlen als feld haben, dies zu einem "normalen" feld wechseln
+- [ ] Diese felder dann nummerieren/bennenen, so dass man als spieler schreiben kann, wo man x oder o einsetzen möchte
 
 ✍️ Heute habe ich grob geplant was ich machen will und wie ich ungefähr vorgehe. 
 

@@ -29,11 +29,18 @@ Geplant
 Heute habe ich mich für eine andere variante entschieden. Bei dieser neuen variante suchte ich nach einem einfacheren weg so das ich nicht so viel code muss schreiben. Ich bin auf eine Idee gekommen die ich jedoch noch ausprobieren muss.
 
 ## 13.9.2024
-- [ ] Benutzereingabe, diese in einer nicht zu effizientem weg schreiben
-- [ ] x und o in das feld einsetzen
+- [x] Benutzereingabe, diese in einer nicht zu effizientem weg schreiben
+- [x] Überprüfung ob die Felder frei sind oder nicht
 - [ ] Anstatt zahlen als feld haben, dies zu einem "normalen" feld wechseln
 - [ ] Diese felder dann nummerieren/bennenen, so dass man als spieler schreiben kann, wo man x oder o einsetzen möchte
+Heute habe ich das spielfeld einbischen designed. Ich habe auch die überprüfung ob das Feld frei ist oder nicht gemacht.
 
+## 20.9.2024
+- [ ] Spielerabwechslung, so das jeder spieler abgwechselt wird nach 1 zug
+- [ ] Die Benutzereingabe, so das man X und O eingeben kann und das es im Feld angezeigt wird
+- [ ] Das dass spiel bis zu ende geht und nicht nach einem zug fertig ist
+- [ ]  Alle Gewinnmöglichkeiten aufschreiben
+      
 ✍️ Heute habe ich grob geplant was ich machen will und wie ich ungefähr vorgehe. 
 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen

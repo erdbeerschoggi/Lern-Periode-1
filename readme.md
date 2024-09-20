@@ -43,10 +43,12 @@ Heute habe ich mich für eine andere variante entschieden. Bei dieser neuen vari
 Heute habe ich das spielfeld einbischen designed. Ich habe auch die überprüfung ob das Feld frei ist oder nicht gemacht.
 
 ## 20.9.2024
-- [ ] Spielerabwechslung, so das jeder spieler abgwechselt wird nach 1 zug
-- [ ] Die Benutzereingabe, so das man X und O eingeben kann und das es im Feld angezeigt wird
-- [ ] Das dass spiel bis zu ende geht und nicht nach einem zug fertig ist
-- [ ]  Alle Gewinnmöglichkeiten aufschreiben
+- [x] Spielerabwechslung, so das jeder spieler abgwechselt wird nach 1 zug
+- [x] Die Benutzereingabe, so das man X und O eingeben kann und das es im Feld angezeigt wird
+- [x] Das dass spiel bis zu ende geht und nicht nach einem zug fertig ist
+- [ ] Emojis als X und O einfügen
+
+Heute habe ich das spiel eigentlich zu ende gebracht, ich wollte noch emojis als X und O einfügen doch ich fand noch nicht heraus wie das geht und ich hatte keine Zrt mehr.
       
 ✍️ Heute habe ich grob geplant was ich machen will und wie ich ungefähr vorgehe. 
 

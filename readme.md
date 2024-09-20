@@ -1,6 +1,13 @@
 # Lern-Periode 1
 
-23.8 bis 30.9
+23.8 bis 20.9
+
+## Projekt
+Ich habe ein Tictactoe spiel programmiert. Am anfang wusste ich nicht ganz genau wie ich vorgehen soll und rechechierte viel. Als ich auf irgendetws gekommen bin probierte ich das aus. Ich habe es jedoch nicht durchgeführt und etwas neues probiert und das habe ich mehrmals. Ich habe es nach einiger zeit gut verstanden und konnte das meiste vom code schreiben. Für das nächste mal würde ich vielleicht mich für eine Art entscheiden denn das würde zeit sparen. Wegen der zeit konnte ich nicht das Spiel genau so programmieren wie ich es wollte. Ich wollte eben nocht emojies für X und O einfügen aber ich habe noch nicht herausgeunden wie genau das funkioniert.
+
+
+![tic_tac_toe_gif](https://github.com/user-attachments/assets/b23e3af1-bbfb-404a-bf2a-b8c9c3b80042)
+
 
 ## Grob-Planung
 

@@ -1,9 +1,11 @@
 # Lern-Periode 1
 
 23.8 bis 20.9
-
 ## Projekt
-Ich habe ein Tictactoe spiel programmiert. Am anfang wusste ich nicht ganz genau wie ich vorgehen soll und rechechierte viel. Als ich auf irgendetws gekommen bin probierte ich das aus. Ich habe es jedoch nicht durchgeführt und etwas neues probiert und das habe ich mehrmals. Ich habe es nach einiger zeit gut verstanden und konnte das meiste vom code schreiben. Für das nächste mal würde ich vielleicht mich für eine Art entscheiden denn das würde zeit sparen. Wegen der zeit konnte ich nicht das Spiel genau so programmieren wie ich es wollte. Ich wollte eben nocht emojies für X und O einfügen aber ich habe noch nicht herausgeunden wie genau das funkioniert. Bei diesem TicTacToe Spiel muss man die Nummer vom leerem Feld eingeben so das man seinen Zug setzen kann.
+Mein Projekt war das TicTacToe spiel. Im Spiel soll man eine reihe von entweder drei X oder O haben um zu gewinnen.Der erste Spieler als X fängt an und dann folgt der Zweite Spieler als O. Das Spiel geht so lange bis einer von ihnen gewonnen hat oder es gleichstand gibt.
+
+## Reflexion
+Am anfang wusste ich nicht ganz genau wie ich vorgehen soll und rechechierte viel. Als ich auf irgendetws gekommen bin probierte ich das aus. Ich habe es jedoch nicht durchgeführt und etwas neues probiert und das habe ich mehrmals. Ich habe es nach einiger zeit gut verstanden und konnte das meiste vom code schreiben. Für das nächste mal würde ich vielleicht mich für eine Art entscheiden denn das würde zeit sparen. Wegen der zeit konnte ich nicht das Spiel genau so programmieren wie ich es wollte. Ich wollte eben nocht emojies für X und O einfügen aber ich habe noch nicht herausgeunden wie genau das funkioniert. Bei diesem TicTacToe Spiel muss man die Nummer vom leerem Feld eingeben so das man seinen Zug setzen kann.
 
 
 ![tic_tac_toe_gif](https://github.com/user-attachments/assets/b23e3af1-bbfb-404a-bf2a-b8c9c3b80042)

@@ -71,7 +71,7 @@ namespace KonsolenTicTacToe
             Console.ReadLine();
         }
 
-        // Spielfeld zeichnen
+        
         static void ZeichneSpielfeld()
         {
             Console.WriteLine("{0} | {1} | {2}", spielfeld[0], spielfeld[1], spielfeld[2]);
@@ -81,7 +81,7 @@ namespace KonsolenTicTacToe
             Console.WriteLine("{0} | {1} | {2}", spielfeld[6], spielfeld[7], spielfeld[8]);
         }
 
-        // Überprüfen auf Gewinn
+        
         static int CheckWin()
         {
             // Gewinnkombinationen

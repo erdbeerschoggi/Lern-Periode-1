@@ -1,82 +1,119 @@
-﻿using System.Diagnostics.Metrics;
+﻿using System;
+using System.Linq;
 
 namespace KonsolenTicTacToe
 {
     internal class Program
     {
-
-
-
-
         // Spielfeld definieren
         static char[] spielfeld = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
-
+        static int player = 1;
+        static int choice;
+        static int flag = 0;
 
         static void Main(string[] args)
         {
-            char aktuellerSpieler = 'X';
-
-            ZeichneSpielfeld();
-
-            Console.WriteLine($"Spieler {aktuellerSpieler}, wähle eine Position (1-9): ");
-            string eingabe = Console.ReadLine();
-
-            // Überprüfen,ob Eingabe eine Zahl ist
+            do
             {
-                if (int.TryParse(eingabe, out int position) && position >= 1 && position <= 9)
-                {
-                    // Überprüfen,ob Position frei ist
-                    if (spielfeld[position - 1] != 'X' && spielfeld[position - 1] != 'O')
-                    {
-                        spielfeld[position - 1] = aktuellerSpieler;
-                        
-                        Console.Clear();
-                        ZeichneSpielfeld();
+                Console.Clear();
+                Console.WriteLine("Player 1: X and Player 2: O");
+                Console.WriteLine("\n");
+                ZeichneSpielfeld();
+                Console.WriteLine("\n");
 
-                        //spielerwechsel
-                        aktuellerSpieler = (aktuellerSpieler == 'X') ? 'O' : 'X';
-                    }
-                    else
-                    {
-                        Console.WriteLine("Dieses Feld ist schon belegt!");
-                    }
+                if (player % 2 == 0)
+                {
+                    Console.WriteLine("Player 2's turn (O): ");
                 }
                 else
                 {
-                    Console.WriteLine("Ungültige Eingabe! Bitte wähle eine Position von 1 bis 9.");
+                    Console.WriteLine("Player 1's turn (X): ");
+                }
+
+                
+                bool validInput = int.TryParse(Console.ReadLine(), out choice);
+                if (!validInput || choice < 1 || choice > 9)
+                {
+                    Console.WriteLine("Ungültige Eingabe. Bitte eine Zahl zwischen 1 und 9 eingeben.");
+                    System.Threading.Thread.Sleep(2000);
+                    continue;
+                }
+
+                // Überprüfen, ob das Feld bereits markiert ist
+                if (spielfeld[choice - 1] != 'X' && spielfeld[choice - 1] != 'O')
+                {
+                    spielfeld[choice - 1] = (player % 2 == 0) ? 'O' : 'X';
+                    player++;
+                }
+                else
+                {
+                    Console.WriteLine("Sorry, das Feld {0} ist bereits mit einem {1} belegt.", choice, spielfeld[choice - 1]);
+                    Console.WriteLine("Bitte warte 2 Sekunden, bevor du es erneut versuchst.");
+                    System.Threading.Thread.Sleep(2000);
+                }
+
+                flag = CheckWin();
+
+            } while (flag != 1 && flag != -1);
+
+            Console.Clear();
+            ZeichneSpielfeld();
+
+            if (flag == 1)
+            {
+                Console.WriteLine("Spieler {0} hat gewonnen!", (player % 2) + 1);
+            }
+            else
+            {
+                Console.WriteLine("Es ist ein Unentschieden!");
+            }
+
+            Console.ReadLine();
+        }
+
+        // Spielfeld zeichnen
+        static void ZeichneSpielfeld()
+        {
+            Console.WriteLine("{0} | {1} | {2}", spielfeld[0], spielfeld[1], spielfeld[2]);
+            Console.WriteLine("--+---+--");
+            Console.WriteLine("{0} | {1} | {2}", spielfeld[3], spielfeld[4], spielfeld[5]);
+            Console.WriteLine("--+---+--");
+            Console.WriteLine("{0} | {1} | {2}", spielfeld[6], spielfeld[7], spielfeld[8]);
+        }
+
+        // Überprüfen auf Gewinn
+        static int CheckWin()
+        {
+            // Gewinnkombinationen
+            int[,] winningCombinations = new int[,]
+            {
+                {0, 1, 2}, {3, 4, 5}, {6, 7, 8}, // Horizontal
+                {0, 3, 6}, {1, 4, 7}, {2, 5, 8}, // Vertikal
+                {0, 4, 8}, {2, 4, 6}  // Diagonal
+            };
+
+            // Überprüfen der Gewinnkombinationen
+            for (int i = 0; i < winningCombinations.GetLength(0); i++)
+            {
+                if (spielfeld[winningCombinations[i, 0]] == spielfeld[winningCombinations[i, 1]] &&
+                    spielfeld[winningCombinations[i, 1]] == spielfeld[winningCombinations[i, 2]])
+                {
+                    return 1; 
                 }
             }
-            
 
-            // Spielfeld
-            static void ZeichneSpielfeld()
+            // Überprüfen auf ein Unentschieden
+            if (spielfeld.All(c => c == 'X' || c == 'O'))
             {
-                Console.WriteLine("1 |2 |3 ");
-                Console.WriteLine("-------");
-                Console.WriteLine("4 |5 |6 ");
-                Console.WriteLine("-------");
-                Console.WriteLine("7 |8 |9");
-
-
+                return -1;
             }
 
-
+            return 0; 
         }
     }
 }
 
 
-          
-
-
-
-
-
-            
-
-
-
-        
 
 
 
@@ -90,8 +127,18 @@ namespace KonsolenTicTacToe
 
 
 
-           
 
-        
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
 

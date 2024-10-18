@@ -1,4 +1,4 @@
-# Lern-Periode 1
+ # Lern-Periode 1
 
 23.8 bis 20.9
 ## Projekt
@@ -52,5 +52,10 @@ Heute habe ich das Spielfeld gestaltet. Ich habe auch die Überprüfung, ob das 
 - [ ] Emojis als X und O einfügen
 
 Heute habe ich das Spiel eigentlich zu Ende gebracht, ich wollte noch Emojis als X und O einfügen, doch ich fand noch nicht heraus wie das geht und ich hatte keine Zeit mehr.
+
+## 18.10.24
+Die Arbeitspakete habe ich vom Herr Colic auf Outlook bekommen und diese bearbeitet.
+
+Heute habe ich das Spiel verbessert, bei dem es noch Fehler gab und noch meine Reflexion verbessert.
 
 

@@ -17,9 +17,9 @@ namespace KonsolenTicTacToe
             {
                 Console.Clear();
                 Console.WriteLine("Player 1: X and Player 2: O");
-                Console.WriteLine("\n");
+                Console.WriteLine("x");
                 ZeichneSpielfeld();
-                Console.WriteLine("\n");
+                Console.WriteLine("o");
 
                 if (player % 2 == 0)
                 {
